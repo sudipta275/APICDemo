@@ -15,7 +15,7 @@ paths:
         - $ref: '#/parameters/AccountKey'
 securityDefinitions:
   clientID:
-    description: 'Parse the account key to content path from URI param'
+    description: 'Parse the account key to content path from URI'
     in: header
     name: X-IBM-Client-Id
     type: apiKey
