@@ -31,7 +31,7 @@ x-ibm-configuration:
             var objvalue=apim.getvariable(obj);
             var filobj='request.parameters.filter';
             var filobjvalue=apim.getvariable(filobj);
-            var messagetoken="c:12345796t6";
+            var messagetoken="c:12345796f6";
             var pathContent = '{"path": "' + objvalue + '", "filter": "' + filobjvalue + '", "message": "' + messagetoken + '"}';
             apim.setvariable('genpath',pathContent,'add');
             //apim.setvariable('message.body',filobjvalue);
